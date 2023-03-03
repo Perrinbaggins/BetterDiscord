@@ -4,7 +4,7 @@
     "description": "Enhances Discord by adding functionality and themes.",
     "main": "src/index.js",
     "scripts": {
-        "start": "node src/index.js"
+        "start": "node src/index.js",
         "build": "pnpm run build-injector && pnpm run build-preload && pnpm run build-renderer",
         "build-prod": "pnpm --filter injector build-prod && pnpm --filter preload build-prod && pnpm --filter renderer build-prod",
         "build-injector": "pnpm --filter injector build",
